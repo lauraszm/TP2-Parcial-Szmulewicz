@@ -1,0 +1,1 @@
+[{"id":1,"tipo":"retiro","monto":1000,"destinatario":"Juan Perez"},{"id":2,"tipo":"deposito","monto":3000,"destinatario":"Luisa Gonzalez"},{"tipo":"deposito","monto":3000,"destinatario":"Pedro Gonzalez","id":4},{"tipo":"deposito","monto":3000,"destinatario":"Pedro Gonzalez","id":5}]

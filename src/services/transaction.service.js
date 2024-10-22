@@ -2,7 +2,8 @@ import Factory from "../models/Factory.js";
 
 class TransactionsService{
     constructor(){
-        this.model = Factory.get("MEM")
+        this.model = Factory.get("FS")
+        //this.model = Factory.get("MEM")
     }
 
     addNewTransaction = async(transaction) => {

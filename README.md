@@ -14,6 +14,13 @@ script `npm start` o `npm run watch`
 
 El proyecto corre en el puerto 8080: `http://localhost:8080`
 
+## Persistencia de datos
+El proyecto trabaja con persistencia en memoria usando FileSystem, la informacion se encuentra en el archivo `transactions.json`.
+En caso de querer probar la memoria del servidor:
+1. Abrir el archivo `\src\services\transaction.service.js`
+2. En el constructor, comentar la linea `this.model = Factory.get("FS")` y descomentar `//this.model = Factory.get("MEM")`
+3. Probar las mismas rutas
+
 ### Rutas disponibles
 
 - Insertar una nueva transaccion: POST "/newTransaction"
